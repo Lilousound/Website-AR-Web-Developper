@@ -1,0 +1,43 @@
+
+
+.contact{
+  width: 70%;
+  height: 60%;
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 150px;
+  font-family: var(--font-one), sans-serif;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+}
+.connect{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  margin: auto;
+}
+
+.contact-reds{
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  justify-content: center;
+}
+.contact-reds img{
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.contact-reds i{
+  font-size: 40px;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.contact-reds a:hover{
+  font-style: italic;
+  color: var(--second-color);
+}

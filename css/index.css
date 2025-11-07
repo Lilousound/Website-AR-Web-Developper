@@ -1,0 +1,29 @@
+
+.intro{
+  width: 80%;
+  margin-top: 40px;
+  text-align: justify;
+  margin: auto;
+  height: 100%;
+
+}
+.intro h1{
+  margin-bottom: 40px;
+}
+.intro ul li{
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: var(--font-two);
+}
+#name{
+ color: var(--second-color)
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 50px;
+    margin-top: 50px;
+  }

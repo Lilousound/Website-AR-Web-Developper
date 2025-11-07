@@ -1,0 +1,31 @@
+
+/* Menu de navigation */
+
+.menu ul {
+  display: flex;
+  font-size: 15px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Hauteur de la fenêtre */
+  margin: 0; /* Supprimer les marges par défaut */
+}
+
+.menu a {
+   border: 1px solid var(--text-color);
+   padding: 4px 16px 4px 16px;;
+}
+
+.menu a:hover {
+   background: var(--text-color);
+    color: white;
+}
+
+label{
+    display: none;
+}
+label, #toggle{
+    display: none;
+}
